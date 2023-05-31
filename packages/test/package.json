@@ -1,0 +1,13 @@
+{
+  "name": "@bengineer.dev/test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test:eslint-config-all": "eslint .  --ext .js,.jsx,.ts,.tsx"
+  },
+  "devDependencies": {
+    "@bengineer.dev/eslint-config-browser": "*",
+    "@bengineer.dev/eslint-config-core": "*",
+    "eslint": "^8.41.0"
+  }
+}

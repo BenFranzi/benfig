@@ -1,0 +1,27 @@
+{
+  "name": "@bengineer.dev/eslint-config-core",
+  "version": "0.1.2",
+  "description": "Shared base configuration",
+  "license": "MIT",
+  "main": "index.js",
+  "homepage": "https://github.com/BenFranzi/benfig/tree/main/packages/eslint-config-core",
+  "bugs": {
+    "url": "https://github.com/BenFranzi/benfig/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenFranzi/benfig.git",
+    "directory": "packages/eslint-config-core"
+  },
+  "files": [
+    "index.js",
+    "base.js",
+    "import.js"
+  ],
+  "dependencies": {
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "peerDependencies": {
+    "eslint": "^8.41.0"
+  }
+}
