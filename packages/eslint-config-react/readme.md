@@ -13,6 +13,6 @@ yarn add -D @bengineer.dev/eslint-config-browser eslint
 2. Extend this package in your [ESLint configuration](https://eslint.org/docs/user-guide/configuring):
 ```json
 {
-  "extends": "@bengineer.dev/core"
+  "extends": "@bengineer.dev/react"
 }
 ```

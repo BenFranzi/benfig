@@ -14,9 +14,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@bengineer.dev/eslint-config-browser@*, @bengineer.dev/eslint-config-browser@workspace:packages/eslint-config-browser":
+"@bengineer.dev/eslint-config-browser@*, @bengineer.dev/eslint-config-browser@workspace:packages/eslint-config-react":
   version: 0.0.0-use.local
-  resolution: "@bengineer.dev/eslint-config-browser@workspace:packages/eslint-config-browser"
+  resolution: "@bengineer.dev/eslint-config-browser@workspace:packages/eslint-config-react"
   dependencies:
     "@bengineer.dev/eslint-config-core": "*"
     eslint-plugin-jsx-a11y: ^6.7.1
@@ -42,6 +42,24 @@ __metadata:
     "@bengineer.dev/eslint-config-browser": "*"
     "@bengineer.dev/eslint-config-core": "*"
     eslint: ^8.41.0
+  languageName: unknown
+  linkType: soft
+
+"@bengineer.dev/tsconfig-core@workspace:packages/tsconfig-core":
+  version: 0.0.0-use.local
+  resolution: "@bengineer.dev/tsconfig-core@workspace:packages/tsconfig-core"
+  languageName: unknown
+  linkType: soft
+
+"@bengineer.dev/tsconfig-node@workspace:packages/tsconfig-node":
+  version: 0.0.0-use.local
+  resolution: "@bengineer.dev/tsconfig-node@workspace:packages/tsconfig-node"
+  languageName: unknown
+  linkType: soft
+
+"@bengineer.dev/tsconfig-react@workspace:packages/tsconfig-react":
+  version: 0.0.0-use.local
+  resolution: "@bengineer.dev/tsconfig-react@workspace:packages/tsconfig-react"
   languageName: unknown
   linkType: soft
 
