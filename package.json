@@ -1,6 +1,6 @@
 {
   "name": "benfig",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Collection of configs",
   "private": true,
   "workspaces": {

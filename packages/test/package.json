@@ -6,8 +6,8 @@
     "test:eslint-config-all": "eslint .  --ext .js,.jsx,.ts,.tsx"
   },
   "devDependencies": {
-    "@bengineer.dev/eslint-config-browser": "*",
     "@bengineer.dev/eslint-config-core": "*",
+    "@bengineer.dev/eslint-config-react": "*",
     "eslint": "^8.41.0"
   }
 }

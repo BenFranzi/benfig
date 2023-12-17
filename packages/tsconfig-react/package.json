@@ -1,7 +1,7 @@
 {
   "name": "@bengineer.dev/tsconfig-react",
-  "version": "0.1.3",
-  "description": "TS Config React",
+  "version": "1.0.0",
+  "description": "TS Config - React",
   "license": "MIT",
   "main": "tsconfig.json",
   "homepage": "https://github.com/BenFranzi/benfig/tree/main/packages/tsconfig-react",
@@ -15,5 +15,8 @@
   },
   "files": [
     "tsconfig.json"
-  ]
+  ],
+  "dependencies": {
+    "@bengineer.dev/tsconfig-core": "*"
+  }
 }

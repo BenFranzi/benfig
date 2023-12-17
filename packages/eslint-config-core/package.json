@@ -1,7 +1,7 @@
 {
   "name": "@bengineer.dev/eslint-config-core",
-  "version": "0.1.2",
-  "description": "Shared base configuration",
+  "version": "1.0.0",
+  "description": "ESLint Config - Core",
   "license": "MIT",
   "main": "index.js",
   "homepage": "https://github.com/BenFranzi/benfig/tree/main/packages/eslint-config-core",
