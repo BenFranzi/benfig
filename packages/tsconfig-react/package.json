@@ -1,0 +1,19 @@
+{
+  "name": "@bengineer.dev/tsconfig-react",
+  "version": "0.1.3",
+  "description": "TS Config React",
+  "license": "MIT",
+  "main": "tsconfig.json",
+  "homepage": "https://github.com/BenFranzi/benfig/tree/main/packages/tsconfig-react",
+  "bugs": {
+    "url": "https://github.com/BenFranzi/benfig/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenFranzi/benfig.git",
+    "directory": "packages/tsconfig-react"
+  },
+  "files": [
+    "tsconfig.json"
+  ]
+}
