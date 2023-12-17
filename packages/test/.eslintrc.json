@@ -1,6 +1,6 @@
 {
     "overrides": [
         { "files": ["./eslint-config-core/*"], "extends": ["@bengineer.dev/core"] },
-        { "files": ["./eslint-config-browser/*"], "extends": ["@bengineer.dev/browser"] }
+        { "files": ["./eslint-config-react/*"], "extends": ["@bengineer.dev/react"] }
     ]
 }
