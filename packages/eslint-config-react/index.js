@@ -1,14 +1,20 @@
-export default {
-  'plugins': ['jsx-a11y', 'react-refresh'],
+module.exports = {
+  'plugins': ['react', 'jsx-a11y', 'react-refresh'],
   'env': {
     'browser': true,
   },
+  'parserOptions': {
+    'ecmaFeatures': {
+      'jsx': true
+    }
+  },
   'extends': [
     '@bengineer.dev/core',
-    'plugin:jsx-a11y/strict'
+    'plugin:jsx-a11y/strict',
+    'plugin:react/recommended',
   ],
   rules: {
-    'react/jsx-quotes': ['error', 'single', 'avoid-escape'],
+    'jsx-quotes': ['error', 'prefer-single'],
     'react/jsx-no-undef': 'error',
     'react/jsx-sort-props': ['error', {
       'callbacksLast': true,
@@ -27,9 +33,9 @@ export default {
     'react/prop-types': 'error',
     'react/react-in-jsx-scope': 'error',
     'react/self-closing-comp': 'error',
-    'react/wrap-multilines': 'error',
+    'react/jsx-wrap-multilines': 'error',
     'react/jsx-curly-spacing': ['error', { 'when': 'always' }],
     'react/jsx-max-props-per-line': ['error', { 'maximum': 3 }],
-    'react-refresh/only-export-components': ['error', { 'allowConstantExport': true }]
+    'react-refresh/only-export-components': ['error', { 'allowConstantExport': true }],
   }
 }

@@ -4,5 +4,9 @@
 - [ ] tsconfig-core test
 - [ ] tsconfig-react test
 - [ ] tsconfig-node test
+- [ ] update eslint readme
+- [ ] update tsconfig readme
 - [ ] project wide eslint
 - [ ] Publish Github action with release tags per project
+- [ ] update eslint to support plugin extends (plugin:<etc>)
+- [ ] fix needing to add `eslint-plugin-jsx-a11y`, `eslint-plugin-import`, `eslint-plugin-react`

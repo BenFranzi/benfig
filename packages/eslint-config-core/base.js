@@ -1,5 +1,4 @@
 export default {
-  extends: ['eslint:recommended'],
   rules: {
     // Possible Errors
     // http://eslint.org/docs/rules/#possible-errors

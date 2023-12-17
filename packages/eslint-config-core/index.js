@@ -1,4 +1,3 @@
-export default {
-  extends: ['./base.js', './import.js'],
-
+module.exports = {
+  extends: ['eslint:recommended', './base.js', './import.js'],
 }

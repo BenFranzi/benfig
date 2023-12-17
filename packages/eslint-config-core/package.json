@@ -4,7 +4,6 @@
   "description": "ESLint Config - Core",
   "license": "MIT",
   "main": "index.js",
-  "type": "module",
   "homepage": "https://github.com/BenFranzi/benfig/tree/main/packages/eslint-config-core",
   "bugs": {
     "url": "https://github.com/BenFranzi/benfig/issues"
