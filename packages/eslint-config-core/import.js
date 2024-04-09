@@ -1,7 +1,6 @@
 module.exports = {
   plugins: ['import'],
   rules: {
-    /* IMPORT: Static analysis */
     // 'import/no-unresolved': ['error', { commonjs: true }], // Ensure imports point to a file/module that can be resolved
     'import/no-unresolved': 'off',
     'import/named': 'off', // Ensure named imports correspond to a named export in the remote file
@@ -30,16 +29,6 @@ module.exports = {
     'import/unambiguous': 'error', // Report potentially ambiguous parse goal (script vs. module)
     'import/no-commonjs': 'error', // Report CommonJS require calls and module.exports or exports.*
     'import/no-amd': 'error', // Report AMD require and define calls
-    'import/no-nodejs-modules': [
-      'error',
-      {
-        // No Node.js builtin modules.
-        allow: [
-          'querystring', // browserify
-          'url', // browserify
-        ],
-      },
-    ],
 
     /* IMPORT: Style guide */
     'import/first': 'error', // Ensure all imports appear before other statements

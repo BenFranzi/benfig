@@ -1,3 +1,13 @@
 {
-    "extends": "@bengineer.dev/core"
+    "extends": "@bengineer.dev/core",
+    "overrides": [
+        {
+            "files": ["*/eslint-config-*/{*.js,**/*.js}"],
+            "rules": {
+                "import/unambiguous": "off",
+                "import/no-commonjs": "off",
+                "no-undef": "off"
+            }
+        }
+    ]
 }

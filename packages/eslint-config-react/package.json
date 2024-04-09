@@ -1,16 +1,16 @@
 {
   "name": "@bengineer.dev/eslint-config-react",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "ESLint Config - React",
   "license": "MIT",
   "main": "index.js",
-  "homepage": "https://github.com/BenFranzi/benfig/tree/main/packages/eslint-config-react",
+  "homepage": "https://github.com/BenFranzi/eslint-config/tree/main/packages/eslint-config-react",
   "bugs": {
-    "url": "https://github.com/BenFranzi/benfig/issues"
+    "url": "https://github.com/BenFranzi/eslint-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BenFranzi/benfig.git",
+    "url": "git+https://github.com/BenFranzi/eslint-config.git",
     "directory": "packages/eslint-config-react"
   },
   "files": [
@@ -20,7 +20,8 @@
     "@bengineer.dev/eslint-config-core": "*",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.2",
-    "react-refresh": "^0.14.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6"
   },
   "peerDependencies": {
     "eslint": "^8.41.0"

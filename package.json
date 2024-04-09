@@ -1,5 +1,5 @@
 {
-  "name": "benfig",
+  "name": "@bengineer.dev/eslint-config",
   "version": "1.0.0",
   "description": "Collection of configs",
   "private": true,
@@ -9,11 +9,12 @@
     ]
   },
   "scripts": {
+    "lint": "eslint */eslint-config-*/{*.js,**/*.js}",
     "publish": "yarn workspaces foreach --no-private npm publish --access public"
   },
   "packageManager": "yarn@3.5.1",
   "devDependencies": {
-    "@bengineer.dev/eslint-config-core": "1.0.0",
+    "@bengineer.dev/eslint-config-core": "1.0.3",
     "eslint": "^8.56.0"
   }
 }

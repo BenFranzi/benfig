@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   rules: {
     // Possible Errors
     // http://eslint.org/docs/rules/#possible-errors
@@ -8,7 +8,7 @@ export default {
     // http://eslint.org/docs/rules/#best-practices
     // --------------------------------------------
     'complexity': ['warn', 10],
-    'curly': ['error', 'all'],
+    'curly': 'off',
     'yoda': 2,
 
     // Variables
@@ -35,7 +35,6 @@ export default {
     'max-params': ['error', { max: 5 }],
     'max-statements-per-line': ['error', { max: 1 }],
     'no-lonely-if': 2,
-    'object-curly-spacing': ['error', 'always'],
     'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
     'operator-linebreak': ['error', 'before'],
     'padding-line-between-statements': [

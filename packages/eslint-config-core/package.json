@@ -1,16 +1,16 @@
 {
   "name": "@bengineer.dev/eslint-config-core",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "ESLint Config - Core",
   "license": "MIT",
   "main": "index.js",
-  "homepage": "https://github.com/BenFranzi/benfig/tree/main/packages/eslint-config-core",
+  "homepage": "https://github.com/BenFranzi/eslint-config/tree/main/packages/eslint-config-core",
   "bugs": {
-    "url": "https://github.com/BenFranzi/benfig/issues"
+    "url": "https://github.com/BenFranzi/eslint-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BenFranzi/benfig.git",
+    "url": "git+https://github.com/BenFranzi/eslint-config.git",
     "directory": "packages/eslint-config-core"
   },
   "files": [
@@ -19,6 +19,8 @@
     "import.js"
   ],
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
     "eslint-plugin-import": "^2.27.5"
   },
   "peerDependencies": {
